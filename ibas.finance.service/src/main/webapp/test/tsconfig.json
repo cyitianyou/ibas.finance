@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "removeComments": false,
+    "target": "es6",
+    "preserveConstEnums": true,
+    "declaration": false,
+    "sourceMap": true,
+    "outFile": "./index.js"
+  },
+  "files": [
+    "./index.ts"
+  ]
+}
