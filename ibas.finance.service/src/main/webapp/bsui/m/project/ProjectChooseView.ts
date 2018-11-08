@@ -22,7 +22,6 @@ namespace finance {
                         growing: true,
                         growingThreshold: ibas.config.get(openui5.utils.CONFIG_ITEM_LIST_TABLE_VISIBLE_ROW_COUNT, 15),
                         growingScrollToLoad: true,
-                        visibleRowCountMode: sap.ui.table.VisibleRowCountMode.Auto,
                         mode: openui5.utils.toListMode(this.chooseType),
                         items: {
                             path: "/rows",
